@@ -8,20 +8,20 @@
 
 ## 1. clone this repo in your PI
 
-  [Copy this URL](https://github.com/coffeedev/trixie.git)
+    [Copy this URL](https://github.com/coffeedev/trixie.git)
 
-  git clone https://github.com/coffeedev/trixie.git
+    git clone https://github.com/coffeedev/trixie.git
 
-  cd trixie
+    cd trixie
 
-## 2. Open up the file [update_to_trixie.sh] in nano/vi/vim 
-
-## 3. To get your current version code name use 
-   
+## 2. Get your current version code name use  
+    
     cat /etc/os-release
     
     and the field: VERSION_CODENAME should tell you which OS you have
 
+## 3. Open up the file [update_to_trixie.sh] in nano/vi/vim 
+   
     Change the SOURCE field in the file to the current OS you have.
 
 ## 4. once you save the file, do this 

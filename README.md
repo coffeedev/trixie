@@ -1,16 +1,14 @@
 # Update your existing PI to Trixie build, from bookwork or bullseye
 
 ## 0. Create a new folder in your root and go into that folder
-    ```
+    
     mkdir trixie_update
     cd trixie_update
-    ```
+    
 
 ## 1. clone this repo in your PI
 
-    ```
-    
-    ```
+  [Clone](https://github.com/coffeedev/trixie.git)
 
 ## 2. Open up the file [update_to_trixie.sh] in nano/vi/vim and change the SOURCE to the current OS you have.
 

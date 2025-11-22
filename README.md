@@ -1,18 +1,33 @@
 # Update your existing PI to Trixie build, from bookwork or bullseye
 
-## 0. Create a new folder in your root
-    `mkdir trixie_update`
+## 0. Create a new folder in your root and go into that folder
+    ```
+    mkdir trixie_update
+    cd trixie_update
+    ```
 
 ## 1. clone this repo in your PI
+
+    ```
+    
+    ```
 
 ## 2. Open up the file [update_to_trixie.sh] in nano/vi/vim and change the SOURCE to the current OS you have.
 
 ## 3. To get your current version code name use 
-    `cat /etc/os-release` and the field: VERSION_CODENAME should tell you which OS you have
+    ```
+    cat /etc/os-release
+    ```
+    and the field: VERSION_CODENAME should tell you which OS you have
 
 ## 4. once you save the file, do this 
-    `chmod 755 update_to_trixie.sh` and then execute it 
-  `./update_to_trixie.sh`
+    ```
+    chmod 755 update_to_trixie.sh 
+    ```
+    Now run it.
+    ```
+    ./update_to_trixie.sh
+    ```
 
 ## 5. This should run for an hour and might want your input depending on your setup in the middle.
 

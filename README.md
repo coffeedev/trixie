@@ -1,4 +1,5 @@
 # Update your existing PI to Trixie build, from bookwork or bullseye
+## READ DISCLAIMER BELOW, FIRST
 
 ## 0. Create a new folder in your root and go into that folder
     
